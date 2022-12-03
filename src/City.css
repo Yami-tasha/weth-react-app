@@ -1,0 +1,26 @@
+h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 32px;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(135, 135, 135);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    font-family: "Caveat", cursive;
+  }
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  

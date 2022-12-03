@@ -1,0 +1,53 @@
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(135, 135, 135);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    font-family: "Caveat", cursive;
+  }
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  .wether-temperarure img {
+    margin-right: 5px;
+    margin-top: -34px;
+    height: 64px;
+    width: 64px;
+  }
+  .wether-temperarure strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "Caveat", cursive;
+  }
+  .wether-temperarure .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+  }
+  .weather-forecast {
+    font-family: "Caveat", cursive;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .weather-foecast-date {
+    font-size: 16px;
+    color: #878787;
+    opacity: 0.8;
+  }
+  .weather-foecast-temperature-min {
+    opacity: 0.5;
+  }
+  .weather-foecast-temperature {
+    color: #878787;
+    font-size: 13px;
+  }
+  
