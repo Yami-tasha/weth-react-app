@@ -10,13 +10,13 @@ export default function Weather() {
           <div className="wether-temperarure">
             <strong id="temperature">15</strong>
             <span className="units">
-              <a href="#" id="celsius" className="active">
+              <span href="#" id="celsius" className="active">
                 °C
-              </a>
+              </span>
               |
-              <a href="#" id="fahrenheit">
+              <span href="#" id="fahrenheit">
                 °F
-              </a>
+              </span>
             </span>
           </div>
         </div>
